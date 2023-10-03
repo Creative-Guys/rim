@@ -3,8 +3,8 @@
   font-display: block;
   src:
     local("Rick and Morty"),
-    url(public/font.woff2) format("woff"),
-    url(public/font.ttf) format("truetype");
+    url(/font.woff2) format("woff"),
+    url(/font.ttf) format("truetype");
 }
 
 * {
@@ -23,7 +23,7 @@ body {
   justify-content: space-between;
   align-items: center;
 
-  background: #000 url(public/background.jpg) center no-repeat;
+  background: #000 url(/background.jpg) center no-repeat;
   background-size: 130vh;
   overflow: hidden;
 
