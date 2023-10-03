@@ -23,8 +23,7 @@ body {
   justify-content: space-between;
   align-items: center;
 
-  background: #000 url(/background.jpg) center no-repeat;
-  background-size: 130vh;
+  background: #000;
   overflow: hidden;
 
   font-family:
@@ -45,7 +44,18 @@ body {
   text-shadow: 3px 3px 0 #00afc7;
 }
 
+body.main {
+  background: #000 url(/background.jpg) center no-repeat;
+  background-size: 130vh;
+}
+
 #sign {
   max-height: 22vh;
   max-width: 80vw;
+}
+
+iframe {
+  width: 100%;
+  max-width: 900px;
+  aspect-ratio: 16/9;
 }
